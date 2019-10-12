@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/jogeocc/go-mysql-crud/driver"
-	repository "github.com/jogeocc/go-mysql-crud/methods"
 	models "github.com/jogeocc/go-mysql-crud/models"
-	pelicula "github.com/jogeocc/go-mysql-crud/repository"
+	repository "github.com/jogeocc/go-mysql-crud/repository"
+	pelicula "github.com/jogeocc/go-mysql-crud/repository/pelicula"
 )
 
 // NewPeliculaHandler ...
