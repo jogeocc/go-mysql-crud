@@ -9,8 +9,8 @@ import (
 	"context"
 	"database/sql"
 
+	pRepo "../../acciones" // Cargamos el paquete repository (pelicula_method) Se Implementa los metodos de la interfaz
 	models "../../models"
-	pRepo "../../repository" // Cargamos el paquete repository (pelicula_method) Se Implementa los metodos de la interfaz
 )
 
 // NewSQLPostRepo retunrs la implementacion de Peliculas de la interfaz

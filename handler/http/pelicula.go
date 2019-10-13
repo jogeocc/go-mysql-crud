@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"strconv"
 
-	pelicula "../../repository/pelicula"
+	pelicula "../../acciones/pelicula" //cargamos los metodos mysql de pelicula
 
-	repository "../../repository"
+	repository "../../acciones"
 
 	models "../../models"
 
