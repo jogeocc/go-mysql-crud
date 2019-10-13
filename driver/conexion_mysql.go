@@ -1,5 +1,7 @@
 package driver
 
+//CLASE QUE DEFINE EL DRIVER o LA CONEXION PARA EL MANEJO DE LA BD MYSQL
+
 import (
 	"database/sql"
 	"fmt"

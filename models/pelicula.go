@@ -1,5 +1,9 @@
 package models
 
+/*
+	MODELO PELICULAS
+*/
+
 type Pelicula struct {
 	ID       int    `json:"id"`
 	Nombre   string `json:"nombre"`
